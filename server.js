@@ -11,4 +11,4 @@ app.get('/api/hello', (req,res) => {
     res.send({message: 'Hello Sohyeon!'});
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`Listening on port ${port}`))
